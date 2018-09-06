@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="assets/style.css" media="screen">
+</head>
+<body>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		<ul id="playlist" class="hidden">
+			<li song="SV-01.mp3" cover="../images/covers/cover1.png" artist="Sherman's Voice">Narration Demo</li>
+			<li song="SV-02.mp3" cover="../images/covers/cover2.png" artist="Sherman's Voice">E-Learning Demo</li>
+			<li song="SV-05.mp3" cover="../images/covers/cover3.png" artist="Sherman's Voice">Commercial Demo</li>
+			<li song="SV-11.mp3" cover="../images/covers/cover4.png" artist="Sherman's Voice">Language Demo (German)</li>
+		</ul>
+	</div>
+
+</div>
+
+<script src="assets/jquery.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
