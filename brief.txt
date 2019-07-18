@@ -1,0 +1,12 @@
+Downloaded 16FEB18 - push for 2018-WK07
+"Build An Audio Player Using HTML5 & jQuery - Part 1 (Traversy Media)"
+[t0Qp3McD3j0]
+
+
+Bespoke jQuery audio player for "Sherman's Voice" demo reel.
+
+
+TODO: Push LIVE 16FEB18
+
+TODO: use FontAwesome icons instead of image files
+
